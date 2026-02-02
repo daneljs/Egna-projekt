@@ -197,7 +197,7 @@ def main():
                 print("Ingen inmatning!")
         
         elif val == "3":
-            # Generera ett lösenord
+            # Genererar ett lösenord
             try:
                 langd = input("\nLösenordslängd (standard 16): ").strip()
                 langd = int(langd) if langd else 16
